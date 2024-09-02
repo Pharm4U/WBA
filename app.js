@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import nodemailer from "nodemailer"
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
